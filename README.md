@@ -1,4 +1,4 @@
-![Alt text](logo.jpg?raw=true "Title")
+![Alt text](logo.png?raw=true "Title")
 
 # intel
 
