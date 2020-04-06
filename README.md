@@ -55,51 +55,12 @@ sudo pip3 install -r requirements.txt
 sudo apt install seclists
 
 
-### usage example, 😑 ngerti ngk luu
+### usage example 😑 
 
-### Scanning single target
+### basic scanning
 
-```
 sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15
 sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15 -v
 sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15 -vv
 sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15 -vvv
-```
-
-#### scanning a hostname
-
-
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ example.com
-
-
-#### Scanning a network range(CIDR)
-
-```
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.0/24
-```
-
-### Scanning multiple targets
-
-```
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15 192.168.10.0/24 example.com
-```
-
-### Scanning targets from file
-
-```
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ -ts /home/user/targets.txt
-```
-
-### Excluding one host
-
-```
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ --exclude 192.168.10.9 192.168.10.0/24
-```
-
-### Excluding many hosts
-
-```
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ --exclude 192.168.10.9,192.168.10.24 192.168.10.0/24
-```
-###
 
