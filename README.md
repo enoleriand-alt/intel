@@ -69,7 +69,7 @@ sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15 
 # Scanning a hostname
 
 ```
-sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ example.com
+##sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ example.com
 ```
 
 # Scanning a network range(CIDR)
