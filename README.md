@@ -57,7 +57,7 @@ sudo apt install seclists
 
 ### usage example 😑 
 
-### scanning single
+scanning single
 
 sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15
 sudo python3 intel.py -p MyProjectName -w /home/user/pt/projects/ 192.168.10.15 -v
