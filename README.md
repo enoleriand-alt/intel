@@ -48,7 +48,9 @@ Alat ini juga akan meluncurkan pemindaian enumerasi lebih lanjut untuk setiap la
 
 # instalation
 
-pip3 install -r requirements.txt
+git clone https://github.com/enoleriand-alt/intel
+
+sudo pip3 install -r requirements.txt
 
 sudo apt install seclists
 
