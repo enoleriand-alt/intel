@@ -8,14 +8,6 @@ Intel is a multi-threaded network intelligence spy tool which performs automated
 
 The tool will also launch further enumeration scans for each detected service using a number of different tools.
 
-## translatenya 😒
-
-Melakukan pemindaian jaringan pengintaian otomatis untuk mengumpulkan intelijen jaringan.
-
-Intel adalah alat mata-mata intelijen jaringan multi-utas yang melakukan penghitungan otomatis layanan jaringan. Ia melakukan pemindaian deteksi host langsung, pemindaian port, pemindaian layanan, pemindaian konten web, brute-force, pencarian eksploitasi off-line terperinci dan banyak lagi.
-
-Alat ini juga akan meluncurkan pemindaian enumerasi lebih lanjut untuk setiap layanan yang terdeteksi menggunakan sejumlah alat yang berbeda.
-
 ### Requirements
 
 * Python 3
@@ -57,7 +49,7 @@ sudo pip3 install -r requirements.txt
 sudo apt install seclists
 
 
-### usage example 😑 
+### usage example 
 
 scanning single
 
